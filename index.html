@@ -8,7 +8,7 @@
 
 </head>
 <body>
-    <header class="header flex flex-col">
+    <header class="header flex flex-col sm:hidden">
         <!--NAV SECTION-->
         <nav class="navbar pt-3 px-4 flex flex-row justify-between items-center">
         <!--LOGO IMG-->
@@ -26,7 +26,6 @@
                 <!--cart value-->
                 <span class="ml-2.5">Cart ($56)</span>
             </div>
-
         </nav>
         <!--Header Image-->
         <div class="header-img w-[100%] h-61 mt-7">
@@ -43,7 +42,7 @@
     <!--MAIN SECTION-->
     <main>
         <!--PRODUCT SECTION-->
-        <section class="product-section mt-32">
+        <section class="product-section mt-16">
             <div class="product-title-and-description flex flex-col items-center text-center ">
                 <h2 class="noto-serif-bold text-2xl"><span class="text-[#E95A08]">Our</span> Plants</h2>
                 <p class="description inter-regular mt-4">Indulge your senses with the beauty and fragrance of our fresh flower shop.
@@ -52,7 +51,7 @@
         </section>
 
         <!--PRODUCTS CARDS-->
-        <div class="products w-[100%] grid grid-cols-2  gap-x-6 gap-y-7 justify-between items-center p-3.5">
+        <div class="products w-[100%] grid grid-cols-2  gap-x-6 gap-y-7 justify-between place-items-center p-3.5">
              <div class="cards items-center text-center mt-5">
                 <img src="./assets/sample-flower-image.png" alt="Lily Blossom">
                 <h4 class="product-title inter-medium text-[1rem] mt-5">Lily Blossom</h4>
@@ -93,7 +92,7 @@
 
         <!--CONVERSION-->
         <section class="conversion-section mt-10 p-4">
-            <img src="./assets/flower-store.png" alt="flower-store">
+            <img class="w-full h-auto" src="./assets/flower-store.png" alt="flower-store">
             <div class="cta-title-and-description mt-5">
                 <h2 class="noto-serif-bold text-2xl">Flower & Plants Lover</h2>
                 <ol class="list-disc pl-5">
@@ -148,7 +147,31 @@
                 </div>
             </div>
         </section>
-
+         <!--FOOTER SECTION-->
+        <footer class="footer mt-12 p-5">
+            <div class="logo-and-description flex flex-col text-left justify-start">
+                <img class="logo w-45" src="./assets/logo.png" alt="faugei-flower-shop">
+                <p class="logo-description inter-regular mt-4 mb-5">Indulge your senses with the beauty and fragrance of our fresh flower shop. </p>
+                <ul class="footer-ul flex flex-col gap-y-5">
+                    <li class="inter-regular text-[1rem]">Home</li>
+                    <li class="inter-regular text-[1rem]">About Us</li>
+                    <li class="inter-regular text-[1rem]">Blog</li>
+                    <li class="inter-regular text-[1rem]">FAQ</li>
+                    <li class="inter-regular text-[1rem]">Contact Us</li>
+                    <li class="inter-regular text-[1rem]">Features</li>
+                    <li class="inter-regular text-[1rem]">Pricing</li>
+                    <li class="inter-regular text-[1rem]">Privacy Policy</li>
+                    <li class="inter-regular text-[1rem]">Terms of Service</li>
+                    <li class="inter-regular text-[1rem]">Help</li>
+                </ul>
+                <div class="social-links flex flex-row gap-x-6 mt-5 items-center">
+                    <img class="w-9 h-9" src="./assets/icon-linkedin.png" alt="linkedin">
+                    <img class="w-8 h-8" src="./assets/icon-twitter.png" alt="X">
+                    <img class="w-9 h-9" src="./assets/icon-facebook.png" alt="facebook">
+                    <img class="w-9 h-9" src="./assets/icon-youtube.png" alt="youtube">
+                </div>
+            </div>
+        </footer>
 
     </main>
 </body>
