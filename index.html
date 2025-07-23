@@ -152,7 +152,7 @@
             </div>
         <!--DESCRIPTION-->
             <div class="cta-title-and-description  min-lg:ml-15 min-lg:flex min-lg:flex-col min-lg:justify-center">
-                <h2 class="noto-serif-bold text-2xl min-lg:text-[50px]">Flower & Plants <br> Lover</h2>
+                <h2 class="noto-serif-bold text-2xl min-lg:text-[50px] max-sm:mt-5 ">Flower & Plants <br> Lover</h2>
                 <ol class="list-disc pl-5">
                     <li class="inter-regular mt-4">
                         Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh.
@@ -213,8 +213,8 @@
                 </div>
             </div>
         </section>
-         <!--FOOTER SECTION-->
-        <footer class="footer mt-12 p-5">
+         <!--FOOTER SECTION FOR MOBILE-->
+        <footer class="footer mt-12 p-5 hidden max-sm:block">
             <div class="logo-and-description flex flex-col text-left justify-start">
                 <img class="logo w-45" src="./assets/logo.png" alt="faugei-flower-shop">
                 <p class="logo-description inter-regular mt-4 mb-5">Indulge your senses with the beauty and fragrance of our fresh flower shop. </p>
@@ -238,7 +238,39 @@
                 </div>
             </div>
         </footer>
-
+        <!--FOOTER FOR DESKTOP-->
+        <footer class="max-sm:hidden min-sm:block  py-12 w-[1140px] m-auto">
+            <div class="container grid grid-cols-4 place-items-center ">
+                <div class="logo-and-description flex flex-col text-left justify-start"> 
+                    <img class="logo w-45" src="./assets/logo.png" alt="faugei-flower-shop">
+                    <p class="logo-description inter-regular mt-4 mb-5 w-[80%]">Indulge your senses with the beauty and 
+                        fragrance of our fresh flower shop. </p></div>
+                <div>
+                    <ul class="flex flex-col gap-y-5">
+                        <li class="inter-regular text-[1rem]">Home</li>
+                        <li class="inter-regular text-[1rem]">About Us</li>
+                        <li class="inter-regular text-[1rem]">Blog</li>
+                        <li class="inter-regular text-[1rem]">FAQ</li>
+                        <li class="inter-regular text-[1rem]">Contact Us</li>
+                    </ul>
+                </div>
+                <div>
+                    <ul class="flex flex-col gap-y-5">
+                        <li class="inter-regular text-[1rem]">Features</li>
+                        <li class="inter-regular text-[1rem]">Pricing</li>
+                        <li class="inter-regular text-[1rem]">Privacy Policy</li>
+                        <li class="inter-regular text-[1rem]">Terms of Service</li>
+                        <li class="inter-regular text-[1rem]">Help</li>
+                    </ul>
+                </div>
+                <div class="social-links flex flex-row gap-x-6 h-[200px]">
+                    <img class="w-9 h-9" src="./assets/icon-linkedin.png" alt="linkedin">
+                    <img class="w-8 h-8" src="./assets/icon-twitter.png" alt="X">
+                    <img class="w-9 h-9" src="./assets/icon-facebook.png" alt="facebook">
+                    <img class="w-9 h-9" src="./assets/icon-youtube.png" alt="youtube">
+                </div>
+            </div>
+        </footer>
  
 </body>
 </html>
