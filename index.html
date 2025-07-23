@@ -168,39 +168,47 @@
         </section>
 
         <!--CTA SECTION-->
-        <section class="cta-section p-4 mt-36">
-            <div class="cta-description w-full text-center">
-                <h2 class="noto-serif-bold text-2xl"><span class="text-[#E95A08]">Latest</span> Deals</h2>
-                <p class="description inter-regular mt-4 mb-10">Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh.</p>
+        <section class="cta-section p-4 mt-36 min-sm:mt-32">
+            <div class="cta-description w-full text-center flex flex-col items-center">
+                <h2 class="noto-serif-bold text-2xl min-sm:text-5xl"><span class="text-[#E95A08]">Latest</span> Deals</h2>
+                <p class="description inter-regular mt-4 mb-10 md:w-[660px]">Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh.</p>
             </div>
         <!--OFFER CARDS-->
-            <div class="bloom-plant bg-[url('../assets/deal-bloom.png')] bg-no-repeat bg-cover h-50 w-full mt-5 rounded-2xl bg-[#00000099]">
-                 <div class="realative rounded-2xl w-full h-full bg-[#00000099] text-center flex flex-col justify-center items-center">
-                    <h3 class="offers text-white noto-serif-bold text-[1.25rem]">60% Off | Bloom Plant</h3>
-                    <a class="text-white  text-[1rem]" href="#shop">Shop Now</a>
-                 </div>
+        <div class="offer-cards min-sm:flex min-sm:flex-cols-2 min-sm:justify-center min-sm:gap-7">
+            <div class="left-side-cards min-sm:w-[35%]   min-sm:justify-around ">
+                <div class="bloom-plant bg-[url('../assets/deal-bloom.png')] bg-no-repeat bg-cover h-50 min-sm:h-52 w-full mt-5 rounded-2xl bg-[#00000099]">
+                        <div class="realative rounded-2xl w-full h-full bg-[#00000099] text-center flex flex-col justify-center items-center">
+                            <h3 class="offers text-white noto-serif-bold text-[1.25rem]">60% Off | Bloom Plant</h3>
+                            <a class="text-white  text-[1rem] underline underline-offset-2 decoration-white" href="#shop">Shop Now</a>
+                    </div>
+                </div>
+                <div class="bloom-plant bg-[url('../assets/deal-ana.png')] bg-no-repeat bg-cover h-50 min-sm:h-52 w-full mt-5 min-sm:mt-4 rounded-2xl bg-[#00000099]">
+                    <div class="realative rounded-2xl w-full h-full bg-[#00000099] text-center flex flex-col justify-center items-center">
+                        <h3 class="offers text-white noto-serif-bold text-[1.25rem]">60% Off | Bloom Plant</h3>
+                        <a class="text-white  text-[1rem] underline underline-offset-2 decoration-white" href="#shop">Shop Now</a>
+                    </div>
+                </div>
             </div>
-            <div class="bloom-plant bg-[url('../assets/deal-ana.png')] bg-no-repeat bg-cover h-50 w-full mt-5 rounded-2xl bg-[#00000099]">
-                 <div class="realative rounded-2xl w-full h-full bg-[#00000099] text-center flex flex-col justify-center items-center">
-                    <h3 class="offers text-white noto-serif-bold text-[1.25rem]">60% Off | Bloom Plant</h3>
-                    <a class="text-white  text-[1rem]" href="#shop">Shop Now</a>
-                 </div>
+            <div class="right-side-cards min-sm:w-[60%]">
+                <div class="bloom-plant bg-[url('../assets/deal-zabo.png')] bg-no-repeat bg-cover h-50 w-full min-sm:w-full min-sm:h-[433px] mt-5 rounded-2xl bg-[#00000099]">
+                    <div class="realative rounded-2xl w-full h-full bg-[#00000099] text-center flex flex-col justify-center items-center">
+                        <h3 class="offers text-white noto-serif-bold text-[1.25rem] min-sm:text-[40px]">60% Off | Bloom Plant</h3>
+                        <a class="text-white text-[1rem] underline underline-offset-2 decoration-white" href="#shop">Shop Now</a>
+                </div>
             </div>
-            <div class="bloom-plant bg-[url('../assets/deal-zabo.png')] bg-no-repeat bg-cover h-50 w-full mt-5 rounded-2xl bg-[#00000099]">
-                 <div class="realative rounded-2xl w-full h-full bg-[#00000099] text-center flex flex-col justify-center items-center">
-                    <h3 class="offers text-white noto-serif-bold text-[1.25rem]">60% Off | Bloom Plant</h3>
-                    <a class="text-white text-[1rem]" href="#shop">Shop Now</a>
-                 </div>
             </div>
-        </section>
+        </div>
+            
 
+        </section>
+    </main>
         <!--CONTACT SECTION-->
-        <section class="contact-section mt-11">
-            <div class="bg-[url('../assets/news-letter-bg.png')] bg-no-repeat bg bg-cover w-full h-70 flex flex-col justify-center items-center ">
-                <div class="spacing w-full h-[20%]"></div>
-                <h4 class="contact-title noto-serif-bold text-[1.25rem] text-white ">Join the colorful Bunch</h4>
-                <div class="email flex flex-row mt-6">
-                    <input type="email" placeholder="Write email" class="placeholder:inter-regular placeholder:pl-4  bg-white">
+        <section class="contact-section mt-11 min-sm:mt-29">
+            <div class="bg-[url('../assets/news-letter-bg.png')] bg-no-repeat bg bg-cover w-full h-70 flex flex-col justify-center items-center min-sm:h-[533px] ">
+                <div class="spacing w-full h-[20%] min-sm:hidden"></div>
+                <h4 class="contact-title noto-serif-bold text-[1.25rem] text-white min-sm:text-[68px] ">Join the colorful Bunch</h4>
+                <div class="email flex flex-row mt-6 min-sm:w-[60%]">
+                    <input type="email" placeholder="Write email" class="placeholder:inter-regular placeholder:pl-4  bg-white min-sm:w-[100%]">
                     <button class="bg-[#E95A08] text-white w-26 h-13 ">Subscribe</button>
                 </div>
             </div>
@@ -231,6 +239,6 @@
             </div>
         </footer>
 
-    </main>
+ 
 </body>
 </html>
