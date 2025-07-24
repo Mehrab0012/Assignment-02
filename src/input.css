@@ -39,3 +39,41 @@
   font-style: normal;
   color: #111111;
 }
+.floating-badge {
+  position: absolute;
+  top: -140px; 
+  right: -88px; 
+  width: 284px; 
+  height: 284px; 
+  display: none;
+  animation: float 4s ease-in-out infinite;
+}
+@keyframes float {
+  0%, 100% {
+    transform: translateY(2px) rotate(5deg);
+  }
+  50% {
+    transform: translateY(-30px) rotate(10deg);
+  }
+}
+.floating-animation {
+  animation: float 4s ease-in-out infinite;
+}
+
+@media (min-width: 480px) and (max-width: 540px) {
+  .title-and-description {
+    padding-left: 2rem; 
+    padding-right: 2rem;
+    text-align: left;
+    margin-top: 70px;
+  }
+
+}
+  @media (min-width: 540px) and (max-width: 639px) {
+  .title-and-description {
+    padding-left: 2rem; 
+    padding-right: 2rem;
+    text-align: left;
+    margin-top: 120px;
+  }
+}
