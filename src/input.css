@@ -48,6 +48,9 @@
   display: none;
   animation: float 4s ease-in-out infinite;
 }
+.shadow {
+  box-shadow: -8px 20px 80px rgba(0, 0, 0, 0.25);
+}
 @keyframes float {
   0%, 100% {
     transform: translateY(2px) rotate(5deg);

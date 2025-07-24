@@ -92,7 +92,7 @@
 
 
             <!--PRODUCTS CARDS-->
-            <div class="products min-sm:w-[100%] grid grid-cols-2 md:grid-cols-4  gap-x-6 gap-y-7 justify-between place-items-center p-3.5">
+            <div class="products min-sm:w-[100%] grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4  gap-x-6 gap-y-7 justify-between place-items-center p-3.5">
                 <div class="cards items-center text-center mt-5">
                     <img src="./assets/sample-flower-image.png" alt="Lily Blossom">
                     <h4 class="product-title inter-medium text-[1rem] mt-5">Lily Blossom</h4>
@@ -147,7 +147,8 @@
         <section class="conversion-section mt-10 p-4 min-sm:grid min-sm:grid-cols-2 min-sm:mt-52 min-sm:place-items-center">
             <div class="images relative">
                 <img class="w-full h-auto min-sm:w-[460px] min-md:w-[540px] min-md:h-[540px]" src="./assets/flower-store.png" alt="flower-store">
-                <img src="./assets/trusted-badge.png" alt="badge" class="absolute -top-35 -right-22 w-71 h-71 hidden lg:block floating-animation">
+                <img src="./assets/trusted-badge.png" alt="badge" class=" absolute -top-35 -right-22 w-71 h-71 hidden lg:block floating-animation z-1 ">
+                <div class="absolute -top-20 -right-8 w-43 h-43 hidden lg:block floating-animation rounded-[50%] shadow"></div>
             </div>
         <!--DESCRIPTION-->
             <div class="cta-title-and-description  min-sm:ml-15 min-sm:flex min-sm:flex-col min-sm:justify-center">
@@ -205,10 +206,10 @@
         <section class="contact-section mt-11 sm:mt-29">
             <div class="bg-[url('../assets/news-letter-bg.png')] bg-no-repeat bg bg-cover w-full h-70 flex flex-col justify-center items-center sm:h-[533px] ">
                 <div class="spacing w-full h-[20%] sm:hidden"></div>
-                <h4 class="contact-title noto-serif-bold text-[1.25rem] text-white sm:text-[68px] ">Join the colorful Bunch</h4>
-                <div class="email flex flex-row mt-6 sm:w-[60%]">
+                <h4 class="contact-title noto-serif-bold text-[1.25rem] text-white min-sm:text-[50px] min-md:text-[68px] ">Join the colorful Bunch</h4>
+                <div class="email flex flex-row mt-6 sm:w-[60%] xl:w-[800px]">
                     <input type="email" placeholder="Write email" class="placeholder:inter-regular placeholder:max-sm:text-[0.875rem] placeholder:pl-4  bg-white sm:w-[100%]">
-                    <button class="bg-[#E95A08] text-white w-26 h-13 ">Subscribe</button>
+                    <button class="bg-[#E95A08] text-white w-28 h-13 min-sm:w-35 min-md:w-60 ">Subscribe</button>
                 </div>
             </div>
         </section>
@@ -238,8 +239,8 @@
             </div>
         </footer>
         <!--FOOTER FOR DESKTOP-->
-        <footer class="hidden sm:block py-12 lg:w-[1140px] m-auto">
-            <div class="container grid grid-cols-4 place-items-center ">
+        <footer class="hidden sm:block py-12 min-sm::w-full sm:p-6 xl:w-[1140px] m-auto">
+            <div class="container grid min-md:grid-cols-4 sm:grid-cols-3  place-items-center ">
                 <div class="logo-and-description flex flex-col text-left justify-start"> 
                     <img class="logo w-45" src="./assets/logo.png" alt="faugei-flower-shop">
                     <p class="logo-description inter-regular mt-4 mb-5 w-[80%]">Indulge your senses with the beauty and 
@@ -262,7 +263,7 @@
                         <li class="inter-regular text-[1rem]">Help</li>
                     </ul>
                 </div>
-                <div class="social-links flex flex-row gap-x-6 h-[200px]">
+                <div class="social-links flex flex-row gap-x-6 min-md:h-[200px]">
                     <img class="w-9 h-9" src="./assets/icon-linkedin.png" alt="linkedin">
                     <img class="w-8 h-8" src="./assets/icon-twitter.png" alt="X">
                     <img class="w-9 h-9" src="./assets/icon-facebook.png" alt="facebook">
