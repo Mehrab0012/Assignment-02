@@ -584,6 +584,13 @@
       font-size: 0.875rem;
     }
   }
+  .placeholder\:max-sm\:text-\[0\.875rem\] {
+    &::placeholder {
+      @media (width < 40rem) {
+        font-size: 0.875rem;
+      }
+    }
+  }
   .min-sm\:mt-5 {
     @media (width >= 40rem) {
       margin-top: calc(var(--spacing) * 5);
@@ -844,6 +851,21 @@
   .xl\:m-auto {
     @media (width >= 80rem) {
       margin: auto;
+    }
+  }
+  .xl\:mt-1 {
+    @media (width >= 80rem) {
+      margin-top: calc(var(--spacing) * 1);
+    }
+  }
+  .xl\:mt-50 {
+    @media (width >= 80rem) {
+      margin-top: calc(var(--spacing) * 50);
+    }
+  }
+  .xl\:mt-54 {
+    @media (width >= 80rem) {
+      margin-top: calc(var(--spacing) * 54);
     }
   }
   .min-xl\:w-\[1140px\] {
